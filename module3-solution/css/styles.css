@@ -1,0 +1,62 @@
+* {
+	box-sizing: border-box;
+}
+
+#header-nav {
+	background-color: rgb(120,120,120);
+	border: 1px solid black;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+.navbar-brand h1 {
+	margin-top: -5px;
+	margin-bottom: 0px;
+	color: black;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid black;
+}
+
+#nav-list {
+
+	font-size: 1.3em;	
+	background-color: white;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-family: 'Josefin Sans', sans-serif;
+	color: black;
+}
+
+h1 {
+	color: black;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.container-fluid {
+	background-color: grey;
+	color: black;
+	margin: 30px 10px;
+	height: 1300px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.3em;
+}
+
+.container-fluid h2 {
+	padding: 10px 0px;
+}
+
+@media (max-width: 767px) {
+	.container-fluid {
+		margin: 30px 70px;
+	}
+}
+
+	
+
